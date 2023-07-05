@@ -12,7 +12,6 @@ $(function () {
 
         $current.removeClass('active');
         $post.addClass('active');
-        // 위의 코드는 탭메뉴 코드입니다.
     });
 
 })
