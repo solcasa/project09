@@ -7,10 +7,12 @@
     <title>김규리09</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/aos.css">
     <link rel="stylesheet" href="./css/style.css">
 
     <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/slick.min.js"></script>
     <script src="./js/aos.js"></script>
     <script src="./js/custom.js"></script>
 </head>
@@ -32,6 +34,11 @@
                     </ul>
                 </nav>
             </div>
+            <div class="mobile_btn">
+                <button>
+                    <span class="blind">모바일 메뉴 버튼</span>
+                </button>
+            </div>
         </header>
 
         <!-- main -->
@@ -39,15 +46,11 @@
             <!-- main_visual -->
             <section class="main_visual">
                 <div class="main_bg">
-                    <div data-aos="fade-up" data-aos-duration="2000">
-                        <div class="slogan">
-                            <h1><img src="./images/big_slogan.png" alt="밀리 big슬로건"></h1>
-                        </div>
-                    </div>
-                    <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
-                        <div class="slogan">
-                            <h2><img src="./images/small_slogan.png" alt="밀리 small슬로건"></h2>
-                        </div>
+                    <div class="slogan">
+                        <h1 data-aos="fade-up" data-aos-duration="2000"><img src="./images/big_slogan.png"
+                                alt="밀리 big슬로건"></h1>
+                        <h2 data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500"><img
+                                src="./images/small_slogan.png" alt="밀리 small슬로건"></h2>
                     </div>
                     <button class="free_btn">
                         <strong>첫 달 무료</strong>로 독서 시작하기
@@ -57,17 +60,11 @@
 
             <!-- sc_01: book_key@slide -->
             <section class="main_banner sec">
-                <div data-aos="fade-up" data-aos-duration="2000">
-                    <div class="title inner">
-                        <h2>당신을 기다리는<br />
-                            14만 권의 도서</h2>
-                    </div>
-                </div>
-                <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
-                    <div class="title inner">
-                        <p>첫 달 무료 구독을 통해<br />
-                            어떤 도서가 있는지 확인해보세요</p>
-                    </div>
+                <div class="title inner">
+                    <h2 data-aos="fade-up" data-aos-duration="2000">당신을 기다리는<br />
+                        14만 권의 도서</h2>
+                    <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">첫 달 무료 구독을 통해<br />
+                        어떤 도서가 있는지 확인해보세요</p>
                 </div>
                 <div class="main_slide">
                     <div class="slide slide01"></div>
@@ -78,17 +75,11 @@
 
             <!-- sc_02: book_$grid -->
             <section class="main_event sec">
-                <div data-aos="fade-up" data-aos-duration="2000">
-                    <div class="title inner">
-                        <h2>언제든 해지 가능!<br />
-                            첫 달 무료로 가볍게</h2>
-                    </div>
-                </div>
-                <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
-                    <div class="title inner">
-                        <p>상황에 맞게 원하는 요금제를<br />
-                            자유롭게 선택하세요</p>
-                    </div>
+                <div class="title inner">
+                    <h2 data-aos="fade-up" data-aos-duration="2000">언제든 해지 가능!<br />
+                        첫 달 무료로 가볍게</h2>
+                    <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">상황에 맞게 원하는 요금제를<br />
+                        자유롭게 선택하세요</p>
                 </div>
                 <div class="price_wrap">
                     <div class="itm itm01">
@@ -160,17 +151,11 @@
             <!-- sc_03: book_tab -->
             <section class="main_content sec">
                 <div class="inner content">
-                    <div data-aos="fade-up" data-aos-duration="2000">
-                        <div class="title">
-                            <h2>관심 분야에 있는 책도<br />
-                                딱 골라드려요</h2>
-                        </div>
-                    </div>
-                    <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
-                        <div class="title">
-                            <p>검색어 순위를 통해 뽑은<br />
-                                인기 분야 책들을 확인해보세요</p>
-                        </div>
+                    <div class="title">
+                        <h2 data-aos="fade-up" data-aos-duration="2000">관심 분야에 있는 책도<br />
+                            딱 골라드려요</h2>
+                        <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">검색어 순위를 통해 뽑은<br />
+                            인기 분야 책들을 확인해보세요</p>
                     </div>
                     <div class="outer">
                         <div class="buttons">
